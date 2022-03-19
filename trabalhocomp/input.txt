@@ -1,0 +1,23 @@
+program ex1
+integer : x, y;
+
+procedure p
+integer: x,y,z;
+begin
+z := x;
+x := x-1;
+
+if x > 1 then 
+x := z
+else
+y := 1
+$;
+y := y*5
+end
+
+begin 
+read(x);
+p;
+write(x);
+write(y)
+end.
